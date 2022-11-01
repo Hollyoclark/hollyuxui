@@ -1,0 +1,48 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+
+  .selfie {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .selfieContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .row {
+    width: 80px;
+    height: 80px;
+  }
+
+  .col {
+    width: 80px;
+    height: 80px;
+  }
+
+  #h1text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .card {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-content: center;
+  }
