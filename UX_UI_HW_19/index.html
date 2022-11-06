@@ -17,10 +17,10 @@
     <header>
       
       <ul>
-        <li id="hover" onmouseover="mouseOver()" onmouseout="mouseOut()">ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">ABOUT</li>
+        <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">SKILLS</li>
+        <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">WORK</li>
+        <li onmouseover="scaleUp(this,'30px')" onmouseout="scaleUp(this,'20px')">CONTACT</li>
       </ul>
       <div class="selfieContainer">
         <a class="navbar-brand" href="#"><img src="images/logo01.png"></a>
@@ -33,24 +33,24 @@
         </div>
         <h1>Holly Clark</h1>
         <p>UX/UI Designer with a working knowledge of html/css</p>
-        <button>Download Resume</button>
+        <button onmouseover="changeBgColor(this,'skyblue')" onmouseout="changeBgColor(this, 'black')">Download Resume</button>
       </div>
     </section>
     <h1 class="heading">My UX Skills</h1>
     <section class="flexContainer">
       <div>
         <img src="images/protopersona.png">
-        <h3>User Research</h3>
+        <h3 onmouseover="changeColor2(this)" onmouseout="changeColor2(this)">User Research</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
       </div>
       <div>
         <img src="images/sitemap.png">
-        <h3>User Interface Design</h3>
+        <h3 onmouseover="changeColor2(this)" onmouseout="changeColor2(this)">User Interface Design</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
       </div>
       <div>
         <img src="images/labor.png">
-        <h3>Web Development</h3>
+        <h3 onmouseover="changeColor2(this)" onmouseout="changeColor2(this)">Web Development</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat</p>
       </div>
     </section>
@@ -65,7 +65,7 @@
           <h4>User Research</h4>
           <p>At Feline Rescue we We might do this by creating a fast & easy adoption application process, simplifying access to all website features, creating a credible website design to ensure user confidence.
             .</p>
-          <button>View Project</button>
+          <button onmouseover="changeBgColor(this,'skyblue')" onmouseout="changeBgColor(this, 'black')">View Project</button>
         </div>
         <div class="img2">
           <img src="images/journey.png">
@@ -73,7 +73,7 @@
         <div class="content2">
           <h4>User Research</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
+          <button onmouseover="changeBgColor(this,'skyblue')" onmouseout="changeBgColor(this, 'black')">View Project</button>
         </div>
         <div class="img3">
           <img src="images/Saysfeels.png">
@@ -81,17 +81,17 @@
         <div class="content3">
           <h4>User Research</h4>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <button>View Project</button>
+          <button onmouseover="changeBgColor(this,'skyblue')" onmouseout="changeBgColor(this, 'black')">View Project</button>
         </div>
       </div>
     </section>
     <footer>
       <ul>
-        <li>ABOUT</li>
-        <li>SKILLS</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
-      </ul>
+        <li onmouseover="changeColor(this)" onmouseout="changeColor(this)">ABOUT</li>
+        <li onmouseover="changeColor(this)" onmouseout="changeColor(this)">SKILLS</li>
+        <li onmouseover="changeColor(this)" onmouseout="changeColor(this)">WORK</li>
+        <li onmouseover="changeColor(this)" onmouseout="changeColor(this)">CONTACT</li>
+    </ul>
     </footer>
   </body>
   <script src="js/index.js"></script>
